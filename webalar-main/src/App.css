@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+:root{
+  --clr-primary: #554D89;
+  --clr-secondary: #6852ED;
+  --clr-dark-primary : #716C80;
+  --clr-dark-secondary: #5B5766  ;
+
+  --ff-primary-head:'Poppins';
+  --ff-primary-bio: 'Nunito';
+}
+
+
+
+body{
+  color: var(--color);
+  border: 1px solid var(--color);
+}
